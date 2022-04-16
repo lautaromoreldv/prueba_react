@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px; 
+}
+
+p{
+  font-family: 'Lato', 'sans-serif';
+}
+
+h2{
+  margin-bottom: 32px !important;
+}
+.css-gy4i07-MuiPaper-root{
+  z-index: 9999 !important;
+}
+
+body {
+  background-color: #F5F8F5;
+}
+.css-1oqqzyl-MuiContainer-root{
+  margin-top: 1em;
+  margin-bottom: 5em;
+}
+
+.css-1ee5err-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected{
+  color: #97B9A0 !important;
+}
+
+.css-480o17-MuiGrid-root>.MuiGrid-item{
+  padding-top: 30px !important; 
+}
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root{
+  font-size: 20px !important;
+  color: #555 !important;
+  padding-left: 0px !important;
+}
+.css-1480iag-MuiInputBase-root-MuiInput-root {
+  font-size: 20px !important;
+}
+
+.css-kmsjn1-MuiButtonBase-root-MuiButton-root{
+  margin: 0 0 1em 0 !important;
+}
+
+#like{
+  margin-top: 0px !important;
+}
+
+/*button contacto*/
+#enviarForm{
+  margin-top: 2em !important;
+}
+  
+.css-1nl0624{
+  padding: 0 !important;
+}
+#grillaCards{
+  margin-bottom: 6em !important;
+}
+
+@media screen and (max-width: 576px){
+
+  .css-1oqqzyl-MuiContainer-root{
+    margin-bottom: 5em;
+  }
+  .css-1480iag-MuiInputBase-root-MuiInput-root {
+    font-size: 15px !important;
+  }
+}
