@@ -13,7 +13,7 @@ const Inicio = () => {
                     Huellas
                 </Typography>
                 <Typography variant="body1">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aspernatur repellendus corporis tempora debitis cupiditate architecto corrupti ullam quae nemo at esse, a adipisci, maxime expedita placeat nulla perspiciatis magni.
+                    Huellas es una aplicación dedicada al bienestar animal y
                 </Typography>
             </ThemeProvider>
         </Container>

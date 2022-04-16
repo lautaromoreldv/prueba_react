@@ -1,9 +1,21 @@
-import { createTheme } from '@mui/material/styles';
+import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 
-
-const theme = createTheme({
+let theme = createTheme({
   typography: {
-    fontFamily: 'Roboto'
+    fontFamily: [
+      'Roboto',
+      'Lato',
+      'san-serif'
+    ].join(','),
+    body1:{
+      fontFamily: 'Lato'
+    }, 
+    body2:{
+      fontFamily: 'Lato'
+    },
+    p:{
+      fontFamily: 'Lato'
+    }
   },
   palette: {
     primary: {
@@ -14,7 +26,11 @@ const theme = createTheme({
       main: '#f27573',
       contrastText: '#fff',
     },
-  }
+  },
 });
+
+
+
+theme = responsiveFontSizes(theme);
 
 export default theme;

@@ -4,6 +4,7 @@ import Enviado from './Enviado'
 import { FormControl, InputLabel, Input, Grid, Box, Typography, Button } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from '../themes/theme';
+import styles from '../css/contacto.module.css'
 
 const Formulario = () => {
     
@@ -131,7 +132,7 @@ const Formulario = () => {
                         </Grid>
                     </Grid>
                     
-                        <Button color="primary" fullWidth variant="outlined" type="submit" id="enviarForm">
+                        <Button color="primary" fullWidth variant="outlined" type="submit" id={styles.enviarForm}>
                             Enviar
                         </Button>
                 </Box>

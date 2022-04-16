@@ -8,9 +8,8 @@ import Fab from '@mui/material/Fab';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
-import theme from '../themes/theme';
 import { ThemeProvider } from '@mui/material/styles';
-
+import theme from '../themes/theme';
 
 export default function Cards(props) {
   return (
