@@ -11,9 +11,10 @@ p{
 h2{
   margin-bottom: 32px !important;
 }
-.css-gy4i07-MuiPaper-root{
+
+/*.css-gy4i07-MuiPaper-root{
   z-index: 9999 !important;
-}
+}*/
 
 body {
   background-color: #F5F8F5;
