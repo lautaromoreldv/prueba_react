@@ -42,8 +42,8 @@ const Formulario = () => {
                                         message: 'No puede tener más de 40 caracteres'
                                     },
                                     pattern: {
-                                        value: /^[A-Za-z ]+$/i,
-                                        message: 'No puede contener números'
+                                        value: /^[A-Za-zñÑáéíóúÁÉÍÓÚ\s]+$/i,
+                                        message: 'No puede contener números o caracteres especiales'
                                     }
                                     })} 
                                     type="text" className="form-control" placeholder="Ingresar nombre" />
@@ -64,8 +64,8 @@ const Formulario = () => {
                                         message: 'No puede tener más de 40 caracteres'
                                     },
                                     pattern: {
-                                        value: /^[A-Za-z ]+$/i,
-                                        message: 'No puede contener números'
+                                        value: /^[A-Za-zñÑáéíóúÁÉÍÓÚ\s]+$/i,
+                                        message: 'No puede contener números o caracteres especiales'
                                     }
                                     })} 
                                     type="text" className="form-control" placeholder="Ingresar apellido" />
@@ -124,8 +124,8 @@ const Formulario = () => {
                                         message: 'No puede tener más de 50 caracteres'
                                     },    
                                     pattern: {
-                                        value: /^[A-Za-z ]+$/i,
-                                         message: 'No puede contener números'
+                                        value: /^[A-Za-zñÑáéíóúÁÉÍÓÚ\s]+$/i,
+                                        message: 'No puede contener números o caracteres especiales'
                                     }
                                     })} 
                                     type="text" className="form-control" placeholder="Ingresar direccion" />
