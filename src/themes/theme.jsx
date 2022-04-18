@@ -8,7 +8,7 @@ let theme = createTheme({
       'san-serif'
     ].join(','),
     body1:{
-      fontFamily: 'Lato'
+      fontFamily: 'Lato',
     }, 
     body2:{
       fontFamily: 'Lato'
@@ -24,8 +24,8 @@ let theme = createTheme({
     },
     secondary: {
       main: '#f27573',
-      contrastText: '#fff',
-    },
+      contrastText: '#fff'
+    }
   },
 });
 

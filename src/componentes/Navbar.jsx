@@ -31,7 +31,14 @@ const Navbar = () => {
         <Toolbar id={styles.contenedor}>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
-                
+                    <Typography
+                        variant="h6"
+                        noWrap
+                        component="div"
+                        sx={{ mr: 5, display: { xs: 'none', md: 'flex' } }}
+                    >
+                        Huellas
+                    </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                         <IconButton
                         size="large"
@@ -65,7 +72,7 @@ const Navbar = () => {
                         {pages.map((page) => (
                             <Link key={page}
                             to={`/${page}`}
-                            style={{ textDecoration: "none", color: "#000"}}>
+                            style={{ textDecoration: "none", color: "#3C4858"}}>
                                 <MenuItem onClick={handleCloseNavMenu}>
                                     <Typography textAlign="center">{page.charAt(0).toUpperCase() + page.slice(1)}</Typography>
                                 </MenuItem>
@@ -73,15 +80,24 @@ const Navbar = () => {
                         ))}
                         </Menu>
                     </Box>
+
+                    <Typography
+                        variant="h6"
+                        noWrap
+                        component="div"
+                        sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
+                    >
+                        Huellas
+                    </Typography>
                 
-                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+                    <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
                             <Link key={page}
                             to={`/${page}`}
                             style={{ textDecoration: "none" }}>
                                 <Button
                                     onClick={handleCloseNavMenu}
-                                    sx={{ my: 2, color: 'white', display: 'block' }}
+                                    sx={{ my: 2, color: '#3C4858', display: 'block' }}
                                 >
                                     {page}
                                 </Button>

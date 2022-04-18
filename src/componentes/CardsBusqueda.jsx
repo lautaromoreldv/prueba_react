@@ -22,14 +22,14 @@ export default function Cards(props) {
           <Typography gutterBottom variant="h5" component="div" align='center'>
             {props.title}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
-            {props.descripcion}
-          </Typography>
+            <Typography variant="body2" color="text.secondary">
+                {props.descripcion}
+            </Typography>
         </CardContent>
         <CardActions>
             <ThemeProvider theme={theme}>
-            <Button variant="outlined" size="large" fullWidth id={styles.botonContactarme} >
-                Contactarme
+                <Button variant="outlined" size="large" fullWidth id={styles.botonContactarme} >
+                    Contactarme
                 </Button>
             </ThemeProvider>
         </CardActions>
