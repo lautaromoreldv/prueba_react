@@ -10,7 +10,7 @@ import PersonSearchIcon from '@mui/icons-material/PersonSearch';
 import ContactPageIcon from '@mui/icons-material/ContactPage';
 
 export default function Navegacion() {
-  const [value, setValue] = React.useState('recents');
+  const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);

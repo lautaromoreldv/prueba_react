@@ -41,7 +41,7 @@ export default function Cards(props) {
             </Grid>
             <Grid item xs={1} sm={2} md={1} >
               <ThemeProvider theme={theme}>
-                <Fab color="secondary" size="small" aria-label="like" id="like" >
+                <Fab color="secondary" size="small" aria-label="like" >
                     <FavoriteIcon  />
                   </Fab>
                 </ThemeProvider>

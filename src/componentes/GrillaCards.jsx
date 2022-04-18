@@ -6,7 +6,7 @@ import datos from '../api/datos.json'
 
 export default function GrillaCards() {
   return (
-    <Box sx={{ flexGrow: 1 }} id="grillaCards" >
+    <Box sx={{ flexGrow: 1 }} >
       <Grid container spacing={2}>
         {datos.map((dato, index) => (
           <Grid item key={index} xs={12} sm={6} md={4}>

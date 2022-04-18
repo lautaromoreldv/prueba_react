@@ -6,7 +6,7 @@ import theme from '../themes/theme';
 
 const Inicio = () => {
     return (
-        <>
+    <>
         <Container>
             <ThemeProvider theme={theme}>
                 <Typography variant="h1" color="primary" align="center">
@@ -21,7 +21,7 @@ const Inicio = () => {
         <Container>
 
         </Container>
-        </>
+    </>
     )
 }
 

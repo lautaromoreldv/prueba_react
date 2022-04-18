@@ -1,27 +1,22 @@
-
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Inicio from './componentes/Inicio';
 import Adopcion from './componentes/Adopcion';
 import Busqueda from './componentes/Busqueda';
 import Contacto from './componentes/Contacto';
-import Navegacion from './componentes/Navegacion'
+import Navbar from './componentes/Navbar'
 
-function App() {
+export default function App() {
 	return (
-		<BrowserRouter>
-			<div className="App">
+			<Router>
+				<Navbar />
 				<Routes>
 					<Route path='/' 		element={ <Inicio /> }    ></Route>
-					<Route path='/Inicio'   element={ <Inicio /> }    ></Route>
-					<Route path='/Adopcion' element={ <Adopcion /> }  ></Route>
-					<Route path='/Busqueda' element={ <Busqueda /> }  ></Route>
-					<Route path='/Contacto' element={ <Contacto /> }  ></Route>
-					<Route path='*' 		element= { <h1>404</h1> } ></Route>
+					<Route path='/inicio'   element={ <Inicio /> }    ></Route>
+					<Route path='/adopcion' element={ <Adopcion /> }  ></Route>
+					<Route path='/busqueda' element={ <Busqueda /> }  ></Route>
+					<Route path='/contacto' element={ <Contacto /> }  ></Route>
+					<Route path='*' 		element={ <Inicio /> } 	  ></Route>
 				</Routes>
-				<Navegacion />
-			</div>
-		</BrowserRouter>
+			</Router>
   	);
-}
-
-export default App;
+};

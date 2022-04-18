@@ -3,7 +3,7 @@
   margin:0px;
   padding:0px; 
 }
-
+/*
 p{
   font-family: 'Lato', 'sans-serif';
 }
@@ -14,7 +14,7 @@ h2{
 
 /*.css-gy4i07-MuiPaper-root{
   z-index: 9999 !important;
-}*/
+}
 
 body {
   background-color: #F5F8F5;
@@ -48,22 +48,4 @@ body {
   margin-top: 0px !important;
 }
 
-/*button contacto*/
-
-  
-.css-1nl0624{
-  padding: 0 !important;
-}
-#grillaCards{
-  margin-bottom: 6em !important;
-}
-
-@media screen and (max-width: 576px){
-
-  .css-1oqqzyl-MuiContainer-root{
-    margin-bottom: 5em;
-  }
-  .css-1480iag-MuiInputBase-root-MuiInput-root {
-    font-size: 15px !important;
-  }
-}
+*/

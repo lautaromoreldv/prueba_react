@@ -131,10 +131,11 @@ const Formulario = () => {
                                 </FormControl>
                         </Grid>
                     </Grid>
+
+                    <Button color="primary" fullWidth variant="outlined" type="submit" id={styles.enviarForm}>
+                        Enviar
+                    </Button>
                     
-                        <Button color="primary" fullWidth variant="outlined" type="submit" id={styles.enviarForm}>
-                            Enviar
-                        </Button>
                 </Box>
             </form>
             {enviar && <Enviado />}
