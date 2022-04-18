@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
       <>
     <AppBar position="sticky" id={styles.navBar}>
-        <Toolbar>
+        <Toolbar id={styles.contenedor}>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                 <Typography
@@ -48,8 +48,9 @@ const Navbar = () => {
                     aria-haspopup="true"
                     onClick={handleOpenNavMenu}
                     color="inherit"
+                    id={styles.botonIcon}
                     >
-                    <MenuIcon />
+                        <MenuIcon />
                     </IconButton>
                     <Menu
                     id="menu-appbar"
