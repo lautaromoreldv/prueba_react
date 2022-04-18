@@ -52,7 +52,7 @@ const Formulario = () => {
                                         value: 2,
                                         message: 'Tiene que tener 2 caracteres como mínimo'}, 
                                         pattern: {
-                                            value: /^[A-Z]+$/i,
+                                            value: /^[A-Za-z]+$/i,
                                             message: 'No puede contener números'
                                         }
                                     })} 
@@ -106,7 +106,7 @@ const Formulario = () => {
                                         value: 2,
                                         message: 'Tiene que tener 2 caracteres como mínimo'}, 
                                         pattern: {
-                                            value: /^[A-Z]+$/i,
+                                            value: /^[A-Za-z]+$/i,
                                             message: 'No puede contener números'
                                         }
                                     })} 
