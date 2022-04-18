@@ -35,18 +35,16 @@ const Formulario = () => {
                                     {...register("nombre", { required: 'El nombre es obligatorio.', 
                                     minLength: {
                                         value: 2,
-                                        message: 'Tiene que tener 2 caracteres como mínimo'},
-                                        pattern: {
-                                            value: /^[A-Za-z ]+$/i,
-                                            message: 'No puede contener números'
-                                        },
+                                        message: 'Tiene que tener 2 caracteres como mínimo'
+                                    },  
                                     maxLength: {
                                         value: 40,
-                                        message: 'No puede tener más de 40 caracteres'},
-                                        pattern: {
-                                            value: /^[A-Za-z ]+$/i,
-                                            message: 'No puede contener números'
-                                        }
+                                        message: 'No puede tener más de 40 caracteres'
+                                    },
+                                    pattern: {
+                                        value: /^[A-Za-z ]+$/i,
+                                        message: 'No puede contener números'
+                                    }
                                     })} 
                                     type="text" className="form-control" placeholder="Ingresar nombre" />
                                     <Typography variant="body1" color="secondary">{errors.nombre?.message}</Typography>
@@ -59,18 +57,16 @@ const Formulario = () => {
                                     {...register("apellido", { required: 'El apellido es obligatorio.', 
                                     minLength: {
                                         value: 2,
-                                        message: 'Tiene que tener 2 caracteres como mínimo'}, 
-                                        pattern: {
-                                            value: /^[A-Za-z ]+$/i,
-                                            message: 'No puede contener números'
-                                        },
+                                        message: 'Tiene que tener 2 caracteres como mínimo'
+                                    },
                                     maxLength: {
                                         value: 40,
-                                        message: 'No puede tener más de 40 caracteres'},
-                                        pattern: {
-                                            value: /^[A-Za-z ]+$/i,
-                                            message: 'No puede contener números'
-                                        }
+                                        message: 'No puede tener más de 40 caracteres'
+                                    },
+                                    pattern: {
+                                        value: /^[A-Za-z ]+$/i,
+                                        message: 'No puede contener números'
+                                    }
                                     })} 
                                     type="text" className="form-control" placeholder="Ingresar apellido" />
                                     <Typography variant="body1" color="secondary">{errors.apellido?.message}</Typography>
@@ -121,18 +117,16 @@ const Formulario = () => {
                                     {...register("direccion", { required: 'La dirección es obligatoria.', 
                                     minLength: {
                                         value: 2,
-                                        message: 'Tiene que tener 2 caracteres como mínimo'}, 
-                                        pattern: {
-                                            value: /^[A-Za-z ]+$/i,
-                                            message: 'No puede contener números'
-                                        },
+                                        message: 'Tiene que tener 2 caracteres como mínimo'
+                                    }, 
                                     maxLength: {
                                         value: 50,
-                                        message: 'No puede tener más de 50 caracteres'},
-                                        pattern: {
-                                            value: /^[A-Za-z ]+$/i,
-                                            message: 'No puede contener números'
-                                        }
+                                        message: 'No puede tener más de 50 caracteres'
+                                    },    
+                                    pattern: {
+                                        value: /^[A-Za-z ]+$/i,
+                                         message: 'No puede contener números'
+                                    }
                                     })} 
                                     type="text" className="form-control" placeholder="Ingresar direccion" />
                                     <Typography variant="body1" color="secondary">{errors.direccion?.message}</Typography>
