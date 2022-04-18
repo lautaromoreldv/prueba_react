@@ -72,7 +72,7 @@ const Formulario = () => {
                                     <Typography variant="body1" color="secondary">{errors.apellido?.message}</Typography>
                                 </FormControl>
                         </Grid>
-                        <Grid item xs={12} sm={6} lg={4} xl={5}>
+                        <Grid item xs={12} sm={6} lg={4} xl={6}>
                                 <FormControl fullWidth>
                                     <InputLabel htmlFor="edad">Edad</InputLabel>
                                     <Input 
@@ -88,7 +88,7 @@ const Formulario = () => {
                                     <Typography variant="body1" color="secondary">{errors.edad?.message}</Typography>
                                 </FormControl>
                         </Grid>
-                        <Grid item xs={12} sm={6} lg={8} xl={7}>
+                        <Grid item xs={12} sm={6} lg={8} xl={6}>
                                 <FormControl fullWidth>
                                     <InputLabel htmlFor="celular">Teléfono</InputLabel>
                                     <Input 
@@ -110,7 +110,7 @@ const Formulario = () => {
                                     <Typography variant="body1" color="secondary">{errors.celular?.message}</Typography>
                                 </FormControl>
                         </Grid>
-                        <Grid item xs={12} sm={6} lg={8} xl={7}>
+                        <Grid item xs={12} sm={6} lg={8} xl={6}>
                                 <FormControl fullWidth>
                                     <InputLabel htmlFor="direccion">Dirección</InputLabel>
                                     <Input 
@@ -132,7 +132,7 @@ const Formulario = () => {
                                     <Typography variant="body1" color="secondary">{errors.direccion?.message}</Typography>
                                 </FormControl>
                         </Grid>
-                        <Grid item xs={12} sm={6} lg={4} xl={5}>
+                        <Grid item xs={12} sm={6} lg={4} xl={6}>
                                 <FormControl fullWidth>
                                     <InputLabel htmlFor="numero">Altura</InputLabel>
                                     <Input 

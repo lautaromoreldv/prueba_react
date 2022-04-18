@@ -27,82 +27,67 @@ const Navbar = () => {
 
   return (
       <>
-    <AppBar position="sticky" id={styles.navBar}>
+    <AppBar position="sticky" id={styles.navBar} elevation={0}>
         <Toolbar id={styles.contenedor}>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
-                <Typography
-                    variant="h6"
-                    noWrap
-                    component="div"
-                    sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
-                >
-                    LOGO
-                </Typography>
-
-                <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-                    <IconButton
-                    size="large"
-                    aria-label="account of current user"
-                    aria-controls="menu-appbar"
-                    aria-haspopup="true"
-                    onClick={handleOpenNavMenu}
-                    color="inherit"
-                    id={styles.botonIcon}
-                    >
-                        <MenuIcon />
-                    </IconButton>
-                    <Menu
-                    id="menu-appbar"
-                    anchorEl={anchorElNav}
-                    anchorOrigin={{
-                        vertical: 'bottom',
-                        horizontal: 'left',
-                    }}
-                    keepMounted
-                    transformOrigin={{
-                        vertical: 'top',
-                        horizontal: 'left',
-                    }}
-                    open={Boolean(anchorElNav)}
-                    onClose={handleCloseNavMenu}
-                    sx={{
-                        display: { xs: 'block', md: 'none' },
-                    }}
-                    >
-                    {pages.map((page) => (
-                        <Link key={page}
-                        to={`/${page}`}
-                        style={{ textDecoration: "none", color: "#000"}}>
-                            <MenuItem onClick={handleCloseNavMenu}>
-                                <Typography textAlign="center">{page.charAt(0).toUpperCase() + page.slice(1)}</Typography>
-                            </MenuItem>
-                        </Link>
-                    ))}
-                    </Menu>
-                </Box>
-                <Typography
-                    variant="h6"
-                    noWrap
-                    component="div"
-                    sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
-                >
-                    LOGO
-                </Typography>
-                <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-                    {pages.map((page) => (
-                        <Link key={page}
-                        to={`/${page}`}
-                        style={{ textDecoration: "none" }}>
-                            <Button
-                                onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: 'white', display: 'block' }}
-                            >
-                                {page}
-                            </Button>
-                        </Link>
-                    ))}
-                </Box>
+                
+                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+                        <IconButton
+                        size="large"
+                        aria-label="account of current user"
+                        aria-controls="menu-appbar"
+                        aria-haspopup="true"
+                        onClick={handleOpenNavMenu}
+                        color="inherit"
+                        id={styles.botonIcon}
+                        >
+                            <MenuIcon />
+                        </IconButton>
+                        <Menu
+                        id="menu-appbar"
+                        anchorEl={anchorElNav}
+                        anchorOrigin={{
+                            vertical: 'bottom',
+                            horizontal: 'left',
+                        }}
+                        keepMounted
+                        transformOrigin={{
+                            vertical: 'top',
+                            horizontal: 'left',
+                        }}
+                        open={Boolean(anchorElNav)}
+                        onClose={handleCloseNavMenu}
+                        sx={{
+                            display: { xs: 'block', md: 'none' },
+                        }}
+                        >
+                        {pages.map((page) => (
+                            <Link key={page}
+                            to={`/${page}`}
+                            style={{ textDecoration: "none", color: "#000"}}>
+                                <MenuItem onClick={handleCloseNavMenu}>
+                                    <Typography textAlign="center">{page.charAt(0).toUpperCase() + page.slice(1)}</Typography>
+                                </MenuItem>
+                            </Link>
+                        ))}
+                        </Menu>
+                    </Box>
+                
+                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+                        {pages.map((page) => (
+                            <Link key={page}
+                            to={`/${page}`}
+                            style={{ textDecoration: "none" }}>
+                                <Button
+                                    onClick={handleCloseNavMenu}
+                                    sx={{ my: 2, color: 'white', display: 'block' }}
+                                >
+                                    {page}
+                                </Button>
+                            </Link>
+                        ))}
+                    </Box>
                 </Toolbar>
             </Container>
         </Toolbar>

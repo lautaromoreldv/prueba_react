@@ -1,0 +1,26 @@
+#box2{
+    margin-bottom: 1.5em;
+}
+#filtro{
+    margin-top: .5em;
+}
+#grillaCardsBusqueda{
+    margin-bottom: 2.5em;
+}
+#botonContactarme{
+    margin-top: .5em;
+    margin-bottom: 1.5em;
+}
+
+@media screen and (max-width: 576px){
+    #busqueda{
+        margin-bottom: 0;
+    }
+    #filtro{
+        margin-top: 0;
+        margin-bottom: 1.5em;
+    }
+    #box2{
+        margin-bottom: 0;
+    }
+}
