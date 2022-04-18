@@ -36,7 +36,7 @@ const Formulario = () => {
                                         value: 2,
                                         message: 'Tiene que tener 2 caracteres como mínimo'},
                                         pattern: {
-                                            value: /^[A-Z]+$/i,
+                                            value: /^[A-Za-z ]+$/i,
                                             message: 'No puede contener números'
                                         }
                                     })} 
@@ -52,7 +52,7 @@ const Formulario = () => {
                                         value: 2,
                                         message: 'Tiene que tener 2 caracteres como mínimo'}, 
                                         pattern: {
-                                            value: /^[A-Za-z]+$/i,
+                                            value: /^[A-Za-z ]+$/i,
                                             message: 'No puede contener números'
                                         }
                                     })} 
@@ -106,7 +106,7 @@ const Formulario = () => {
                                         value: 2,
                                         message: 'Tiene que tener 2 caracteres como mínimo'}, 
                                         pattern: {
-                                            value: /^[A-Za-z]+$/i,
+                                            value: /^[A-Za-z ]+$/i,
                                             message: 'No puede contener números'
                                         }
                                     })} 
@@ -116,7 +116,7 @@ const Formulario = () => {
                         </Grid>
                         <Grid item xs={12} sm={6} lg={4} xl={5}>
                                 <FormControl fullWidth>
-                                    <InputLabel htmlFor="numero">Altura (cm)</InputLabel>
+                                    <InputLabel htmlFor="numero">Altura</InputLabel>
                                     <Input 
                                     {...register("numero", { required: 'El número de la altura es obligatorio.', 
                                     min:{
