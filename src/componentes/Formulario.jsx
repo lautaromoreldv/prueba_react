@@ -62,7 +62,7 @@ const Formulario = () => {
                         </Grid>
                         <Grid item xs={12} sm={6} lg={4} xl={5}>
                                 <FormControl fullWidth>
-                                    <InputLabel htmlFor="edad">Edad (en años)</InputLabel>
+                                    <InputLabel htmlFor="edad">Edad</InputLabel>
                                     <Input 
                                     {...register("edad", { required: 'La edad es obligatorio.', 
                                     min:{
@@ -116,7 +116,7 @@ const Formulario = () => {
                         </Grid>
                         <Grid item xs={12} sm={6} lg={4} xl={5}>
                                 <FormControl fullWidth>
-                                    <InputLabel htmlFor="numero">Altura</InputLabel>
+                                    <InputLabel htmlFor="numero">Altura (cm)</InputLabel>
                                     <Input 
                                     {...register("numero", { required: 'El número de la altura es obligatorio.', 
                                     min:{
@@ -135,7 +135,7 @@ const Formulario = () => {
                     <Button color="primary" fullWidth variant="outlined" type="submit" id={styles.enviarForm}>
                         Enviar
                     </Button>
-                    
+
                 </Box>
             </form>
             {enviar && <Enviado />}
