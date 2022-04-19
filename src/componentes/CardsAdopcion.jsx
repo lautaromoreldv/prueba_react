@@ -25,7 +25,7 @@ export default function Cards(props) {
           <Typography gutterBottom variant="h5" component="div" align='center'>
             {props.title}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" style={{ color:"#3C4858" }}>
             {props.descripcion}
           </Typography>
         </CardContent>

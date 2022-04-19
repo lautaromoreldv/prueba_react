@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Adopción",
+        "image": "../img/adopcion.png",
+        "height": "100%",
+        "descripcion": "Para adoptar algún animal se tendrá que llenar un formulario y se pondrá en contacto con esa persona."
+    },
+    {
+        "id": 2,
+        "title": "Busqueda",
+        "image": "../img/busqueda.png",
+        "height": "100%",
+        "descripcion": "Contamos con una sección de busqueda de mascotas perdidas según la zona, se podrá contactar con la persona que lo encontró."
+    },
+    {
+        "id": 3,
+        "title": "Seguridad",
+        "image": "../img/seguridad.png",
+        "height": "100%",
+        "descripcion": "Nos aseguramos a través de varios datos de la persona que se trate de una persona idónea para el cuidado de la mascota"
+    }
+]

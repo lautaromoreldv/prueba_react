@@ -1,0 +1,35 @@
+#parrafo1{
+    padding-left: 8em;
+    padding-right: 8em;
+    line-height: 1.65;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+#imagenIcono{
+    height: 100%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#grillaCardsInicio{
+    margin-top: 2.5em;
+    margin-bottom: 3em;
+}
+@media screen and (max-width: 576px){
+    #parrafo1{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px){
+    #parrafo1{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    #parrafo1{
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+}

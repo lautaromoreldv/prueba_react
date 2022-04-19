@@ -4,6 +4,10 @@
     padding:0px; 
 }
 
+body{
+    background-color: #F7F7F7;
+}
+
 #navBar{
     background-color: #97B9A0;
     margin-bottom: 1.5em;
