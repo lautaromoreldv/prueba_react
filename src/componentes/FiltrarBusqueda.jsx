@@ -1,7 +1,7 @@
 import * as React from 'react';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
-import datos from '../api/busqueda.json'
+import datos from '../api/busqueda'
 import styles from '../css/busqueda.module.css'
 
 export default function FiltrarBusqueda() {

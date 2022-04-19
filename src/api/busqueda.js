@@ -1,0 +1,45 @@
+
+export default [
+    {
+      "id": 1,
+      "title": "Juanito",
+      "categoria": "perro",
+      "image": "https://picsum.photos/200",
+      "descripcion": "Perro Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+    },
+    {
+      "id": 2,
+      "title": "Gatito",
+      "categoria": "gato",
+      "image": "https://picsum.photos/200",
+      "descripcion": "Gato Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+    },
+    {
+      "id": 3,
+      "title": "Lorito",
+      "categoria": "loro",
+      "image": "https://picsum.photos/200",
+      "descripcion": "Loro Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+    },
+    {
+      "id": 4,
+      "title": "Tortuguita",
+      "categoria": "otro/s",
+      "image": "https://picsum.photos/200",
+      "descripcion": "Oso Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+    },
+    {
+      "id": 5,
+      "title": "Conejo",
+      "categoria": "conejo",
+      "image": "https://picsum.photos/200",
+      "descripcion": "conejo Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+    },
+    {
+      "id": 6,
+      "title": "asd",
+      "categoria": "conejo",
+      "image": "https://picsum.photos/200",
+      "descripcion": "conejo Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+    }
+]

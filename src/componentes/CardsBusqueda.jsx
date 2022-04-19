@@ -9,7 +9,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import theme from '../themes/theme';
 import styles from '../css/busqueda.module.css'
 
-export default function Cards(props) {
+export default function CardsBusqueda(props) {
   return (
       <Card sx={{ maxWidth: 1 }} >
         <CardMedia

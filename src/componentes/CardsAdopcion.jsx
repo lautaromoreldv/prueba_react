@@ -12,7 +12,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import theme from '../themes/theme';
 import styles from '../css/adopcion.module.css'
 
-export default function Cards(props) {
+export default function CardsAdopcion(props) {
   return (
       <Card sx={{ maxWidth: 1 }} >
         <CardMedia
