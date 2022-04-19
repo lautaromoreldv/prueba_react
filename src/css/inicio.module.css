@@ -8,8 +8,7 @@
 #imagenIcono{
     height: 100%;
     width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 1.5em auto .5em auto;
 }
 #grillaCardsInicio{
     margin-top: 2.5em;

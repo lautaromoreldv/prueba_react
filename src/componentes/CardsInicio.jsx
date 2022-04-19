@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import styles from '../css/inicio.module.css'
 
 export default function CardsInicio(props) {
+
   return (
       <Card sx={{ maxWidth: 1 }} >
         <CardMedia 

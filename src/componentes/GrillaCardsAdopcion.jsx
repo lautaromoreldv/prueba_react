@@ -2,7 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import CardsAdopcion from './CardsAdopcion'
-import datos from '../api/datos.json'
+import datos from '../api/adopcion.json'
 import styles from '../css/adopcion.module.css'
 
 export default function GrillaCardsAdopcion() {

@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "title": "Perro",
+      "height": "100%",
+      "image": "https://picsum.photos/200",
+      "descripcion": "Perro Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+    },
+    {
+      "id": 2,
+      "title": "Gato",
+      "height": "100%",
+      "image": "https://picsum.photos/200",
+      "descripcion": "Gato Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+    },
+    {
+      "id": 3,
+      "title": "Loro",
+      "height": "100%",
+      "image": "https://picsum.photos/200",
+      "descripcion": "Loro Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+    },
+    {
+      "id": 4,
+      "title": "Oso",
+      "height": "100%",
+      "image": "https://picsum.photos/200",
+      "descripcion": "Oso Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+    }
+]
