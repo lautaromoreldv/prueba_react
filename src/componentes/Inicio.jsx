@@ -15,7 +15,7 @@ const Inicio = () => {
                     Huellas
                 </Typography>
                 <Typography variant="body1" style={{ color:"#3C4858" }} id={styles.parrafo1}>
-                    Huellas es una aplicación en busqueda al bienestar de las mascotas y especialmente dedicada a que tengan una familia que los pueda cuidar con todo el cariño y dedicación que se merecen.
+                    Huellas es una aplicación en busqueda del bienestar de las mascotas y especialmente dedicada a que tengan una familia que los pueda cuidar con todo el cariño y dedicación que se merecen.
                 </Typography>
             </ThemeProvider>
         </Container>

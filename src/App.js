@@ -4,6 +4,7 @@ import Adopcion from './componentes/Adopcion';
 import Busqueda from './componentes/Busqueda';
 import Contacto from './componentes/Contacto';
 import Navbar from './componentes/Navbar'
+import Footer from './componentes/Footer'
 
 export default function App() {
 	return (
@@ -17,6 +18,7 @@ export default function App() {
 					<Route path='/contacto' element={ <Contacto /> }  ></Route>
 					<Route path='*' 		element={ <Inicio /> } 	  ></Route>
 				</Routes>
+				<Footer />
 			</Router>
   	);
 };

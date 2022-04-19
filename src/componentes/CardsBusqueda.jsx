@@ -13,8 +13,8 @@ export default function CardsBusqueda(props) {
   return (
       <Card sx={{ maxWidth: 1 }} >
         <CardMedia
-          id={props.id}
           component='img'
+          id={props.id}
           title={props.title}
           image={props.image}
         />
@@ -22,8 +22,11 @@ export default function CardsBusqueda(props) {
           <Typography gutterBottom variant="h5" component="div" align='center'>
             {props.title}
           </Typography>
-            <Typography variant="body2" style={{ color:"#3C4858" }}>
-                {props.descripcion}
+          <Typography variant="body2" style={{ color:"#3C4858" }}>
+              {props.descripcion}
+          </Typography>
+          <Typography variant="body1" style={{ color:"#3C4858" }}>
+                Locacion: {props.zona}
             </Typography>
         </CardContent>
         <CardActions>
