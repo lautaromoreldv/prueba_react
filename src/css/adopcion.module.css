@@ -5,8 +5,11 @@
 #grillaCardsAdopcion{
     margin-bottom: 2.5em;
 }
+#zona{
+    margin-top: 1em;
+}
 #botonAdoptar{
-    margin-top: .5em;
+    margin-top: 0em;
     margin-bottom: 1.5em;
 }
 #like{

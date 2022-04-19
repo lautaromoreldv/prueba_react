@@ -22,7 +22,7 @@ const GrillaCardsAdopcion = () => {
       <Grid container spacing={2}>
         {data.map((item) => (
           <Grid item key={item.id} xs={12} sm={6} md={4}>
-              <CardsAdopcion title={item.title} image={item.image} descripcion={item.descripcion} />
+              <CardsAdopcion title={item.title} image={item.image} zona={item.zona} descripcion={item.descripcion} />
           </Grid>
           ))}
       </Grid>

@@ -10,36 +10,42 @@ export default [
       "id": 1,
       "title": "Luna",
       "image": luna,
-      "descripcion": "Perro Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+      "zona": "CABA",
+      "descripcion": "Luna es una perra muy docil tiene 5 años fue encontrada en dando vueltas por la calle. No tenía chapita ni ningun dato de sus dueños."
     },
     {
       "id": 2,
       "title": "Emma",
       "image": emma,
-      "descripcion": "Gato Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+      "zona": "Zona sur",
+      "descripcion": "Perra de 3 años de edad muy juguetona y cariñosa, le gusta correr por eso la persona adoptante tendrá que tenes un patio o lugar con espacio."
     },
     {
       "id": 3,
       "title": "Blanquita",
       "image": blanquita,
-      "descripcion": "Loro Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+      "zona": "CABA",
+      "descripcion": "Blanquita es una gata tranquila de 6 años, sus dueños no pueden tenerla por motivos de viaje. Le encanta jugar con botellas y su ratón de plástico."
     },
     {
       "id": 4,
       "title": "Lola",
       "image": lola,
-      "descripcion": "Oso Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+      "zona": "Zona norte",
+      "descripcion": "Lola es una gata que fue encontrada en la calle por un niño y en su casa no la pueden tener. Es buena y le gusta jugar mucho."
     },
     {
       "id": 5,
       "title": "Miko",
       "image": miko,
-      "descripcion": "Oso Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+      "zona": "CABA",
+      "descripcion": "Miko es un labrador grande de 8 años, su familia no puede tenerlo por falta de espacio ya que estos perros al ser grandes necesitan su espacio."
     },
     {
       "id": 6,
       "title": "Rocky",
       "image": rocky,
-      "descripcion": "Oso Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+      "zona": "Zona norte",
+      "descripcion": "Se da en adopción porque en su casa tienen otros perros y no se llevan del todo bien. Se encuentra por Vicente López."
     }
 ]

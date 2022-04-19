@@ -25,8 +25,8 @@ export default function CardsBusqueda(props) {
           <Typography variant="body2" style={{ color:"#3C4858" }}>
               {props.descripcion}
           </Typography>
-          <Typography variant="body1" style={{ color:"#3C4858" }}>
-                Locacion: {props.zona}
+          <Typography variant="body1" style={{ color:"#3C4858" }} id={styles.zona}>
+                Lugar: {props.zona}
             </Typography>
         </CardContent>
         <CardActions>

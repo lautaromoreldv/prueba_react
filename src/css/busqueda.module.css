@@ -8,8 +8,12 @@
 #grillaCardsBusqueda{
     margin-bottom: 2.5em;
 }
-#botonContactarme{
+#zona{
     margin-top: .5em;
+}
+
+#botonContactarme{
+    margin-top: 0em;
     margin-bottom: 1.5em;
 }
 

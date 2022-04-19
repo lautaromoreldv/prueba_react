@@ -12,7 +12,7 @@ export default [
       "categoria": "perro",
       "zona": "Zona sur",
       "image": pancho,
-      "descripcion": "Perro Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+      "descripcion": "Se perdió el día 12/04/22 por Bandfield, tamaño pequeño, tenía un collar negro. Responde con un ladrido cuando lo llaman por su nombre. La familia ofrece una recompensa."
     },
     {
       "id": 2,
@@ -20,7 +20,7 @@ export default [
       "categoria": "perro",
       "zona": "CABA",
       "image": coco,
-      "descripcion": "Gato Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+      "descripcion": "Me llamo Coco me perdí el dia 15/04/22 por la zona de Parque Patricios soy de tamaño pequeño y estoy tomando una medicación."
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@ export default [
       "categoria": "gato",
       "zona": "CABA",
       "image": simon,
-      "descripcion": "Loro Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+      "descripcion": "Se perdió el día domingo 17 de abril alrededor de las 18hs por la zona de Mataderos cerca de Av. Emilio Castro y Av. Larrazábal."
     },
     {
       "id": 4,
@@ -36,7 +36,7 @@ export default [
       "categoria": "perro",
       "zona": "Zona oeste",
       "image": tomas,
-      "descripcion": "Oso Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+      "descripcion": "Me llamo Tomas me escapé el dia 15 de abril cerca del mediodia, tengo puesto un collar rojo. Me encontraba por el centro de Morón."
     },
     {
       "id": 5,
@@ -44,7 +44,7 @@ export default [
       "categoria": "gato",
       "zona": "CABA",
       "image": pelusa,
-      "descripcion": "conejo Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+      "descripcion": "Me perdí el día 12 de abril, , ayudame a volver a casa. Respondo por mi nombre Pelusa, soy una gata de 10 años de color blanco/amarillento."
     },
     {
       "id": 6,
@@ -52,6 +52,6 @@ export default [
       "categoria": "gato",
       "zona": "Zona sur",
       "image": felix,
-      "descripcion": "conejo Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam fugiat veritatis pariatur, dolores, nemo velit quibusdam eius magnam at explicabo"
+      "descripcion": "Soy Felíx me perdí por Lomas de Zamora cerca de las calles Italia y Garibaldi. Me fuí el día 18 de abril pasadas las 21hs."
     }
 ]
