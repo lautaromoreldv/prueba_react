@@ -82,6 +82,7 @@ const Navbar = () => {
                     </Box>
 
                     <Typography
+                        id={styles.title}
                         variant="h6"
                         noWrap
                         component="div"

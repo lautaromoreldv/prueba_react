@@ -12,6 +12,11 @@ body{
     background-color: #97B9A0;
     margin-bottom: 1.5em;
 }
+
+#title{
+    margin-left: -1em;
+}
+
 #contenedor, #botonIcon{
     padding-left: 0px;
     padding-right: 0px;
